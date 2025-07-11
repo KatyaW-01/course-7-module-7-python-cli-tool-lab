@@ -4,14 +4,12 @@
 
 class Task:
     def __init__(self, title):
-        # TODO: Assign the title
-        # TODO: Set completed to False
-        pass
+        self.title = title
+        self.completed = False
 
     def complete(self):
-        # TODO: Mark the task as complete
-        # TODO: Print a confirmation message
-        pass
+        self.completed = True
+        print(f"Task '{self.title}' completed")
 
 # TODO: Define the User class
 # Each user has a name and a list of tasks
